@@ -4,7 +4,7 @@ document.getElementById('myButton').onclick=function(){
     count+=1;
 
         if(count != 0){
-            if (count%2!=1) {
+            if (count%2!=0) {
 
                 document.getElementById('box').style.display="flex";
             
@@ -13,6 +13,7 @@ document.getElementById('myButton').onclick=function(){
                 document.getElementById('box').style.display="none";
             
             }
+        
 
         }
         else{
